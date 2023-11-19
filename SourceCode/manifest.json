@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Movie Downloader",
+  "version": "1.0.0",
+  "description": "Automation",
+  "permissions": ["activeTab"],
+  "action": 
+  {
+    "default_popup": "popup.html", 
+    "default_icon": {"128": "Images/favicon.png"}
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "css": ["style.css"],
+    "js": ["Js/content.js"]
+  }],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
