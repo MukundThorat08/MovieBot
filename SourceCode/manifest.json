@@ -3,10 +3,17 @@
   "name": "Movie Downloader",
   "version": "1.0.0",
   "description": "Automation",
-  "permissions": ["activeTab"],
-  "action": 
+  "permissions": [
+    "activeTab",
+    "webRequest",
+    "declarativeNetRequest"
+  ],
+  "icons": {
+    "128": "Images/favicon.png"
+  },
+  "action":
   {
-    "default_popup": "popup.html", 
+    "default_popup": "popup.html",
     "default_icon": {"128": "Images/favicon.png"}
   },
   "content_scripts": [{
@@ -15,6 +22,6 @@
     "js": ["Js/content.js"]
   }],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "Js/background.js"
   }
 }

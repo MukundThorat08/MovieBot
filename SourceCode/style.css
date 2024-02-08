@@ -6,13 +6,13 @@
 body{
     padding: 10px 15px;
     background-color: #0E1525;
-    min-width: 350px; /* your desired width */
+    min-width: 350px;
     max-width: 100%;
 }
 #sec_1{
     margin-top: 20px;
 }
-body, #sec_1 div:first-child, #sec_2, #sec_1{
+#sec_1 div:first-child, #sec_2, #sec_1{
     display: flex;
     flex-direction: column;
     align-items: center;
