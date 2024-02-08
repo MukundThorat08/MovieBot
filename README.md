@@ -1,4 +1,4 @@
-# MovieBot (extension)
+# MovieBot (extension) 🤖
 - it is bot to download any movie or series from bollyflix website, it automate all the tasks
 
 - ## How to use it
