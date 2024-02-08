@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Movie Downloader",
+  "name": "MovieBot",
   "version": "1.0.0",
   "description": "Automation",
   "permissions": [

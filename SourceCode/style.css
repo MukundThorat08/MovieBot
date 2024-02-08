@@ -18,6 +18,7 @@ body{
     align-items: center;
 }
 #sec_1 div:first-child h2{
+    margin-top: 10px;
     font-size: 20px;
     color: #ADCED9;
 }
