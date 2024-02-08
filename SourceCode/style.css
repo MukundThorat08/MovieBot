@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.extension_body{
     padding: 10px 15px;
     background-color: #0E1525;
     min-width: 350px;
